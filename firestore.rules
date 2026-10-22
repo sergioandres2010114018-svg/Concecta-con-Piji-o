@@ -1,0 +1,46 @@
+rules_version = '2';
+// Reglas de Firestore para APP-Conecta con Pijiño
+//  - Lectura pública de contenidos (la app es informativa).
+//  - Escritura solo para administradores (usuarios autenticados con el
+//    claim admin=true o cuyo correo esté en la lista).
+//  - Cualquier persona puede CREAR un aporte, pero no leer los de otros.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function esAdmin() {
+      return request.auth != null && (
+        request.auth.token.admin == true ||
+        request.auth.token.email in [
+          'sergioandres2010114018@gmail.com'
+        ]
+      );
+    }
+
+    match /{coleccion}/{id} {
+      allow read: if coleccion in ['municipio', 'categorias', 'contenidos',
+                                   'eventos', 'medios', 'enlaces',
+                                   'noticias', 'contactos'];
+      allow write: if esAdmin() && !(coleccion in ['aportes', 'usuarios']);
+    }
+
+    // Cada usuario crea y lee solo su propio perfil; el admin ve todos.
+    match /usuarios/{uid} {
+      allow create: if request.auth != null && request.auth.uid == uid
+                    && request.resource.data.rol == 'usuario';
+      allow read: if (request.auth != null && request.auth.uid == uid) || esAdmin();
+      allow update: if request.auth != null && request.auth.uid == uid
+                    && request.resource.data.rol == resource.data.rol;
+      allow delete: if esAdmin();
+    }
+
+    match /aportes/{id} {
+      allow create: if request.resource.data.keys().hasOnly(
+                         ['nombre', 'contacto', 'tipo', 'mensaje', 'enlace',
+                          'estado', 'creado'])
+                    && request.resource.data.estado == 'pendiente'
+                    && request.resource.data.mensaje is string
+                    && request.resource.data.mensaje.size() < 4000;
+      allow read, update, delete: if esAdmin();
+    }
+  }
+}

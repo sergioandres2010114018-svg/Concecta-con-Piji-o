@@ -1,0 +1,24 @@
+rules_version = '2';
+// Fotos y videos: lectura pública, subida solo administradores.
+service firebase.storage {
+  match /b/{bucket}/o {
+    function esAdmin() {
+      return request.auth != null && (
+        request.auth.token.admin == true ||
+        request.auth.token.email in ['sergioandres2010114018@gmail.com']
+      );
+    }
+    match /fotos/{archivo} {
+      allow read: if true;
+      allow write: if esAdmin()
+                   && request.resource.size < 10 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*');
+    }
+    match /videos/{archivo} {
+      allow read: if true;
+      allow write: if esAdmin()
+                   && request.resource.size < 200 * 1024 * 1024
+                   && request.resource.contentType.matches('video/.*');
+    }
+  }
+}

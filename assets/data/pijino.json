@@ -1,0 +1,383 @@
+{
+  "version": "2026-10-22",
+  "nota": "Base de datos semilla de APP-Conecta con Pijiño. Contenidos redactados a partir de fuentes públicas (ver campo 'fuentes'). Las coordenadas marcadas 'aprox' deben validarse con GPS en campo antes de publicar la versión final.",
+  "municipio": {
+    "nombre": "Pijiño del Carmen",
+    "departamento": "Magdalena",
+    "pais": "Colombia",
+    "slogan": "El corazón de Pijiño en cada atarraya",
+    "lat": 9.3333,
+    "lng": -74.45,
+    "altitud_m": 80,
+    "superficie_km2": 526,
+    "poblacion": 13943,
+    "poblacion_cabecera": 5116,
+    "poblacion_rural": 8827,
+    "creacion_municipio": "1996-03-26",
+    "ordenanza": "Ordenanza 001 de 1996 de la Asamblea del Magdalena (segregado de Santa Ana)",
+    "distancia_santa_marta_km": 325,
+    "alcalde": "Orlando Machado Machado (2024–2027)",
+    "limites": "Norte y oeste: Santa Ana. Sur: San Zenón y el departamento del Cesar. Este: departamento del Cesar.",
+    "corregimientos": ["Cabrera", "Casa Blanca", "El Brillante", "El Dividivi", "Filadelfia", "La Lucha", "Las Planadas", "Peladero", "San José de Prevención"],
+    "economia": "Ganadería extensiva (cuarto lugar del departamento en carne y leche), pesca artesanal en la ciénaga y agricultura de pancoger. Buena parte de la leche se transforma en queso costeño.",
+    "como_llegar": [
+      {"modo": "Aéreo", "detalle": "Aeropuerto San Bernardino de Mompox (Bolívar), a unos 20 minutos."},
+      {"modo": "Terrestre", "detalle": "Ruta La Gloria – Bosconia – Santa Ana – San Zenón."},
+      {"modo": "Fluvial", "detalle": "Conexiones por El Banco, Mompox, Magangué y Santa Bárbara de Pinto."}
+    ],
+    "fuentes": [
+      {"titulo": "Wikipedia – Pijiño del Carmen", "url": "https://es.wikipedia.org/wiki/Piji%C3%B1o_del_Carmen"},
+      {"titulo": "La Guía Turística – Pijiño del Carmen y su riqueza hidrográfica", "url": "https://www.laguiaturistica.com/index.php/magdalena/sitios-turisticos/258-pijino-del-carmen-y-su-riqueza-hidrografica"}
+    ]
+  },
+
+  "categorias": [
+    {"id": "historia", "nombre": "Historia", "icono": "history_edu", "color": "#8B5A2B"},
+    {"id": "cultura", "nombre": "Cultura y tradiciones", "icono": "music_note", "color": "#C0392B"},
+    {"id": "gastronomia", "nombre": "Gastronomía", "icono": "restaurant", "color": "#D9822B"},
+    {"id": "turismo", "nombre": "Sitios turísticos", "icono": "place", "color": "#1F7A8C"},
+    {"id": "ambiente", "nombre": "Ambiente", "icono": "eco", "color": "#3B8B4B"},
+    {"id": "personajes", "nombre": "Personajes", "icono": "person", "color": "#6C4F9C"}
+  ],
+
+  "contenidos": [
+    {
+      "id": "origen-nombre",
+      "categoria": "historia",
+      "titulo": "Origen del nombre",
+      "resumen": "Del Hatillo de Pijiño, donde se reunía el ganado bajo los árboles de pijiño, a la leyenda de la Virgen del Carmen salida de la ciénaga.",
+      "cuerpo": "El primer nombre del lugar fue Hatillo de Pijiño: un punto de vaquería donde el ganado se juntaba a la sombra de los árboles de pijiño (Genipa americana), muy abundantes en los humedales del sector La Baizana. El apellido 'del Carmen' llegó con una leyenda: se cuenta que una tabla con la imagen de la Virgen del Carmen salió flotando de las aguas de la ciénaga, y desde entonces ella es la patrona del pueblo. El himno municipal, compuesto por Luis Oliveros Palomino, también recoge la tradición del pescador y los pijiñales.",
+      "imagenes": ["foto-arbol-pijino", "foto-escudo"],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena – Raúl Ospino Rangel", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "fundacion",
+      "categoria": "historia",
+      "titulo": "Fundación y creación del municipio",
+      "resumen": "Territorio chimila, hatillo ganadero de 1750 y municipio desde el 26 de marzo de 1996.",
+      "cuerpo": "La zona fue una ranchería a orillas de la ciénaga habitada por indígenas chimilas, mulatos y esclavizados. Hacia 1750 el maestre de campo José Fernando de Mier y Guerra, al fundar San Zenón, dejó los playones y la ciénaga como tierras de pancoger y ganadería: allí nació el Hatillo de Pijiño, que con el tiempo creció hasta ser pueblo. Durante los siglos XIX y XX fue corregimiento de Santa Ana. El 26 de marzo de 1996 la Asamblea del Magdalena, mediante la Ordenanza 001, lo creó como municipio. En marzo de 2026 Pijiño celebró sus 30 años de vida municipal.",
+      "imagenes": ["foto-antigua-plaza", "foto-30-anos"],
+      "videos": ["video-documental"],
+      "fuentes": [
+        {"titulo": "Historias del Magdalena – Raúl Ospino Rangel", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"},
+        {"titulo": "El Informador – Pijiño celebró 30 años", "url": "https://www.elinformador.com.co/index.php/sociales/54-entretenimiento/349684-pijino-del-carmen-celebro-30-anos-de-historia-tradicion-y-orgullo-comunitario"}
+      ]
+    },
+    {
+      "id": "independencia",
+      "categoria": "historia",
+      "titulo": "Pijiño en la Independencia",
+      "resumen": "En 1811 llegaron tropas españolas; en 1812 los patriotas las expulsaron.",
+      "cuerpo": "En 1811 el territorio y el corregimiento de Cabrera fueron ocupados por el ejército español al mando del capitán Antonio Garnier. En octubre de 1812 tropas patriotas dirigidas por Vicente Gutiérrez de Piñeres y el coronel Pantaleón de Ribón entraron a la población, la incendiaron y expulsaron a los realistas. La vida religiosa es aún más antigua: desde 1760 sacerdotes de Santa Ana y San Zenón evangelizaban la zona; en 1825 ya había iglesia y hacia 1871 atendía unos 200 feligreses bajo la advocación de la Virgen del Carmen.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena – Raúl Ospino Rangel", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "bailes-cantaos",
+      "categoria": "cultura",
+      "titulo": "Bailes cantaos: chandé y pajarito",
+      "resumen": "Ritmos de tambor y canto que forman parte de la identidad pijiñera.",
+      "cuerpo": "El chandé y el pajarito son bailes cantaos de la tradición ribereña que siguen vivos en Pijiño. Grupos como Los Negritos de Pijiño, Son Pijiñero y el Grupo Renacer de Cabrera —iniciado por la familia Dávila a comienzos de los años cincuenta— los mantienen en fiestas y festivales. Es una de las expresiones que la app busca registrar en video con autorización de los cultores.",
+      "imagenes": [],
+      "videos": ["video-pijino-somos-todos"],
+      "fuentes": [{"titulo": "Historias del Magdalena – Raúl Ospino Rangel", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "banda-remenda",
+      "categoria": "cultura",
+      "titulo": "Banda 16 de Julio – \"La Remendá\"",
+      "resumen": "Banda de viento nacida en 1937 con músicos de Santa Ana y Pijiño.",
+      "cuerpo": "La Banda 16 de Julio, conocida como 'La Remendá', surgió en 1937 cuando la banda de Santa Ana se desintegró por la crisis política de la época. La conformaron músicos de Santa Ana y Pijiño y la dirigió el trompetista Trinidad Jiménez. Su nombre homenajea la fecha de la Virgen del Carmen.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena – Raúl Ospino Rangel", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "cesta-movil",
+      "categoria": "cultura",
+      "titulo": "La cesta móvil, un deporte pijiñero",
+      "resumen": "Juego inventado en Pijiño que se puede jugar en tierra o en el agua.",
+      "cuerpo": "La cesta móvil fue creada en Pijiño por Álvaro Vásquez Oñate. Se enfrentan dos equipos de seis jugadores y la canasta la lleva un 'arquero' que se mueve por el campo. Puede jugarse en cualquier espacio, incluso dentro del agua de la ciénaga.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena – Raúl Ospino Rangel", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "pesca-atarraya",
+      "categoria": "cultura",
+      "titulo": "La pesca con atarraya",
+      "resumen": "El oficio que inspira el logo y el slogan de la app.",
+      "cuerpo": "La pesca artesanal en la ciénaga es, después de la ganadería, la principal actividad económica y un pilar cultural. El atarrayero que lanza la red desde la canoa al atardecer es la imagen del pueblo: por eso el Festival del Bocachico premia al mejor atarrayero y el malecón fue concebido como homenaje a los pescadores.",
+      "imagenes": ["foto-cienaga-blog", "foto-guia-1"],
+      "videos": ["video-pijino-carmen"],
+      "fuentes": [{"titulo": "Wikipedia – Pijiño del Carmen", "url": "https://es.wikipedia.org/wiki/Piji%C3%B1o_del_Carmen"}]
+    },
+    {
+      "id": "platos-tipicos",
+      "categoria": "gastronomia",
+      "titulo": "Platos típicos",
+      "resumen": "Bocachico, pebre de galápago, sancocho de coroncoro, bollo limpio y más.",
+      "cuerpo": "La cocina pijiñera nace de la ciénaga y del potrero. Entre sus platos están el bocachico frito o en sancocho, el pebre de galápago y de morrocoyo, el sancocho de coroncoro, el sancocho de pavo, la sopa de arroz, el desmechado de conejo, el chicharrón, el bollo limpio, el mafufo y el ñeque. Se acompañan con yuca, suero y queso costeño. Nota: el consumo de galápago, morrocoyo y otras especies silvestres está regulado; la app promueve conocer la tradición sin incentivar la caza de especies amenazadas.",
+      "imagenes": ["foto-guia-2"],
+      "videos": [],
+      "fuentes": [{"titulo": "La Guía Turística", "url": "https://www.laguiaturistica.com/index.php/magdalena/sitios-turisticos/258-pijino-del-carmen-y-su-riqueza-hidrografica"}]
+    },
+    {
+      "id": "dulces-bebidas",
+      "categoria": "gastronomia",
+      "titulo": "Dulces y bebidas",
+      "resumen": "Dulce de fríjol, de leche, de ñame y de papaya; ponche y mazamorra de maíz.",
+      "cuerpo": "En Semana Santa y fiestas aparecen los dulces tradicionales: de fríjol, de leche, de ñame y de papaya. Para beber, el ponche y la mazamorra de maíz. Los cultivos de la zona —maíz, yuca, ñame, batata, fríjol, ajonjolí, patilla y melón— son la base de esta despensa.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "La Guía Turística", "url": "https://www.laguiaturistica.com/index.php/magdalena/sitios-turisticos/258-pijino-del-carmen-y-su-riqueza-hidrografica"}]
+    },
+    {
+      "id": "queso-costeno",
+      "categoria": "gastronomia",
+      "titulo": "Queso costeño",
+      "resumen": "La leche de la ganadería pijiñera llega al interior del país convertida en queso.",
+      "cuerpo": "Pijiño es el cuarto productor de carne y leche del Magdalena. Parte de esa leche se transforma en queso costeño que se distribuye hacia el centro del país; un producto que la app puede visibilizar en el directorio de emprendedores locales.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Wikipedia – Pijiño del Carmen", "url": "https://es.wikipedia.org/wiki/Piji%C3%B1o_del_Carmen"}]
+    },
+    {
+      "id": "cienaga-pijino",
+      "categoria": "turismo",
+      "titulo": "Ciénaga de Pijiño",
+      "resumen": "El gran espejo de agua del municipio: pesca, aves y atardeceres.",
+      "cuerpo": "Parte de la llanura de inundación del río Magdalena en la Depresión Momposina. Se comunica con el brazo de Mompox y con los caños Pijiño, La Ceiba, Sacabuche y Trapiche, y alcanza 4 a 5 m de profundidad en temporada de aguas altas. En sus orillas están la cabecera y corregimientos como Cabrera. Desde Mompox se ofrecen recorridos en bote para avistamiento de aves al amanecer y al atardecer.",
+      "ubicacion": {"lat": 9.315, "lng": -74.47, "aprox": true},
+      "imagenes": ["foto-cienaga-blog", "foto-listin-cienaga"],
+      "videos": ["video-cienaga-mochilero", "video-pijino-carmen"],
+      "fuentes": [
+        {"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"},
+        {"titulo": "Listín Diario – Ciénaga de Pijiño", "url": "https://listindiario.com/vida-verde/2018/09/13/532902/cienaga-de-pijino-un-remanso-en-la-naturaleza-salvaje-del-norte-de-colombia.html"}
+      ]
+    },
+    {
+      "id": "malecon",
+      "categoria": "turismo",
+      "titulo": "Malecón turístico",
+      "resumen": "Escaleras, puerto, plazoleta y puente frente a la ciénaga, en homenaje a los pescadores.",
+      "cuerpo": "Construido en el periodo 2016–2019, el malecón tiene escaleras hacia el agua, puerto, plazoleta, puente, un restaurante en una isla de arena, zonas verdes, áreas de descanso y baños públicos. Es el mejor punto para ver el atardecer sobre la ciénaga.",
+      "ubicacion": {"lat": 9.3335, "lng": -74.4555, "aprox": true},
+      "imagenes": ["foto-malecon"],
+      "videos": ["video-plaza-malecon"],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "isla-verde",
+      "categoria": "turismo",
+      "titulo": "Isla Verde",
+      "resumen": "Isla en la ciénaga El Palmar, cerca de Filadelfia; se llega en chalupa.",
+      "cuerpo": "Espacio recreativo dentro de la ciénaga El Palmar. De día es plan familiar de baño y paseo; de noche se vuelve sitio de encuentro. Se accede en chalupa desde la orilla.",
+      "ubicacion": {"lat": 9.30, "lng": -74.43, "aprox": true},
+      "imagenes": ["foto-isla-verde"],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "balnearios",
+      "categoria": "turismo",
+      "titulo": "Balnearios: La Arenada, La Puntica del Pozo y La Vizcaína",
+      "resumen": "Playas de ciénaga para bañarse y compartir en familia.",
+      "cuerpo": "Además de Isla Verde, la ciénaga tiene balnearios tradicionales como La Arenada, La Puntica del Pozo y La Vizcaína. En verano, cuando baja el agua, aparecen playones de arena. Recomendación: ir acompañado de alguien local y respetar las indicaciones sobre profundidad.",
+      "ubicacion": {"lat": 9.325, "lng": -74.462, "aprox": true},
+      "imagenes": ["foto-guia-1"],
+      "videos": [],
+      "fuentes": [{"titulo": "Wikipedia – Pijiño del Carmen", "url": "https://es.wikipedia.org/wiki/Piji%C3%B1o_del_Carmen"}]
+    },
+    {
+      "id": "parroquia",
+      "categoria": "turismo",
+      "titulo": "Parroquia Nuestra Señora del Carmen",
+      "resumen": "Templo patrimonial y centro de las fiestas patronales del 16 de julio.",
+      "cuerpo": "La iglesia de la patrona es considerada patrimonio local. Desde 1825 se registra un templo en el pueblo. Es el punto de partida de procesiones y celebraciones religiosas.",
+      "ubicacion": {"lat": 9.3329, "lng": -74.4528, "aprox": true},
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "La Guía Turística", "url": "https://www.laguiaturistica.com/index.php/magdalena/sitios-turisticos/258-pijino-del-carmen-y-su-riqueza-hidrografica"}]
+    },
+    {
+      "id": "plazas",
+      "categoria": "turismo",
+      "titulo": "Plaza Central y Plaza Garizao",
+      "resumen": "Espacios de encuentro, deporte y eventos folclóricos.",
+      "cuerpo": "La Plaza Central Deportiva fue remodelada en 2019 y tiene un busto de Ramiro Machado Machado, primer alcalde elegido popularmente. La Plaza Garizao, en el barrio El Retablo, se construyó sobre una antigua zona pantanosa y lleva el nombre del acordeonero Carmelo Garizao; allí se realizan eventos culturales como el Festival de la Integración Pijiñera.",
+      "ubicacion": {"lat": 9.3325, "lng": -74.4520, "aprox": true},
+      "imagenes": ["foto-garizao"],
+      "videos": ["video-sacudete"],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "casa-cultura",
+      "categoria": "turismo",
+      "titulo": "Casa de la Cultura Elías Abad Palomino",
+      "resumen": "Centro cultural restaurado que honra al escritor pijiñero.",
+      "cuerpo": "Restaurada por la administración municipal, lleva el nombre del escritor autodidacta Elías Abad Palomino Jiménez. Es sede natural de talleres, grupos de danza y actividades de memoria local.",
+      "ubicacion": {"lat": 9.3331, "lng": -74.4525, "aprox": true},
+      "imagenes": ["foto-casa-cultura"],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "humedales",
+      "categoria": "ambiente",
+      "titulo": "El complejo cenagoso",
+      "resumen": "Ciénagas, caños y arroyos que dependen del pulso de inundación del Magdalena.",
+      "cuerpo": "El municipio está dentro del complejo cenagoso de Pijiño, en la Depresión Momposina. Lo alimentan la quebrada Culebra (unos 56 km de cauce, con arroyos como Chingalé, Palma, Santo Domingo y Cardón) y, hacia el río Cesar, la microcuenca Los Monos. Son humedales con inundaciones estacionales: en sequía el nivel puede bajar drásticamente, como han denunciado habitantes ante las autoridades ambientales.",
+      "imagenes": ["foto-listin-cienaga"],
+      "videos": [],
+      "fuentes": [
+        {"titulo": "Wikipedia – Pijiño del Carmen", "url": "https://es.wikipedia.org/wiki/Piji%C3%B1o_del_Carmen"},
+        {"titulo": "El Informador – Denuncian desastre ambiental en la ciénaga", "url": "https://www.elinformador.com.co/index.php/el-magdalena/83-departamento/231989-denuncian-desastre-ambiental-en-la-cienaga-de-pijino-del-carmen-magdalena"}
+      ]
+    },
+    {
+      "id": "fauna",
+      "categoria": "ambiente",
+      "titulo": "Fauna de la ciénaga",
+      "resumen": "Garzas, martín pescador, cormoranes, toches, iguanas, babillas y peces como el bocachico.",
+      "cuerpo": "Guías de la zona reportan cerca de 20 especies de aves en los recorridos: garza blanca, garza morena, martín pescador, cormorán y toche, entre otras, además de aves migratorias. También se observan iguanas y babillas. En el agua, el bocachico es el pez emblemático; tortugas como el galápago y el morrocoyo están presionadas por la caza y requieren protección.",
+      "imagenes": ["foto-listin-cienaga"],
+      "videos": ["video-cienaga-mochilero"],
+      "fuentes": [{"titulo": "Listín Diario – Ciénaga de Pijiño", "url": "https://listindiario.com/vida-verde/2018/09/13/532902/cienaga-de-pijino-un-remanso-en-la-naturaleza-salvaje-del-norte-de-colombia.html"}]
+    },
+    {
+      "id": "buenas-practicas",
+      "categoria": "ambiente",
+      "titulo": "Buenas prácticas para visitantes",
+      "resumen": "Cómo disfrutar la ciénaga sin dañarla.",
+      "cuerpo": "1) No arrojes basura ni plásticos al agua; lleva tu bolsa de regreso. 2) Respeta las tallas mínimas y épocas de veda del bocachico. 3) No compres ni consumas tortugas, huevos ni fauna silvestre. 4) Observa las aves a distancia y en silencio. 5) Usa chaleco salvavidas en chalupas y botes. 6) Contrata guías y lancheros locales.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Equipo APP-Conecta con Pijiño", "url": ""}]
+    },
+    {
+      "id": "elias-palomino",
+      "categoria": "personajes",
+      "titulo": "Elías Abad Palomino Jiménez",
+      "resumen": "Escritor autodidacta (1917–1951), autor de 'El Cristal de los Recuerdos'.",
+      "cuerpo": "Trabajó desde joven en aserríos y se formó por su cuenta como escritor. Su obra 'El Cristal de los Recuerdos' lo convirtió en referente de las letras pijiñeras; la Casa de la Cultura lleva su nombre.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "carmelo-garizao",
+      "categoria": "personajes",
+      "titulo": "Carmelo Garizao Tobías",
+      "resumen": "Acordeonero vallenato (1936–2018) que da nombre a una plaza.",
+      "cuerpo": "Acordeonero que engrandeció la música del pueblo. Falleció en 2018 durante un homenaje que le hacía el municipio. La Plaza Garizao lleva su nombre.",
+      "imagenes": ["foto-garizao"],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "duque-palomino",
+      "categoria": "personajes",
+      "titulo": "Duque Palomino",
+      "resumen": "Compositor e intérprete; da nombre al Festival de la Canción.",
+      "cuerpo": "Con su combo grabó en 1968 'Que me coma el tigre', con Gustavo Barros en la voz. Es autor de 'Recuerdos de Alicia', 'Cumbia de amores' y 'El pijiñero'. Cada año se realiza en su honor el Festival de la Canción Duque Palomino.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "escritores",
+      "categoria": "personajes",
+      "titulo": "Cronistas de la memoria pijiñera",
+      "resumen": "Esginio Arrieta López, Ángel Cáceres y Luis Oliveros Palomino.",
+      "cuerpo": "Esginio Arrieta López escribió 'Pijiño, sus mitos y sus leyendas'; Ángel Cáceres, 'Pijiño 500 años'; y Luis Oliveros Palomino compuso el himno municipal. Sus obras son fuente clave para validar los contenidos de la app.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    },
+    {
+      "id": "edgar-jimenez",
+      "categoria": "personajes",
+      "titulo": "Edgar Francisco Jiménez López",
+      "resumen": "Pintor nacido en Pijiño (1951), formado en Bogotá, París, Barcelona y Beijing.",
+      "cuerpo": "Artista plástico pijiñero con formación internacional; vivió en Asia y en Toronto. Ejemplo de cómo el talento local trasciende fronteras.",
+      "imagenes": [],
+      "videos": [],
+      "fuentes": [{"titulo": "Historias del Magdalena", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"}]
+    }
+  ],
+
+  "eventos": [
+    {"id": "carnaval", "titulo": "Carnavales", "mes": 2, "dia": null, "lugar": "Cabecera municipal", "descripcion": "Desfiles, música y comparsas antes del Miércoles de Ceniza (fecha móvil).", "imagen": "foto-30-anos", "video": "video-carnaval-2025"},
+    {"id": "aniversario", "titulo": "Aniversario del municipio", "mes": 3, "dia": 26, "lugar": "Cabecera municipal", "descripcion": "Conmemoración de la creación del municipio por la Ordenanza 001 de 1996. En 2026 se celebraron 30 años.", "imagen": "foto-30-anos", "video": null},
+    {"id": "semana-santa", "titulo": "Semana Santa", "mes": 4, "dia": null, "lugar": "Parroquia Nuestra Señora del Carmen", "descripcion": "Procesiones y dulces tradicionales (fecha móvil).", "imagen": null, "video": null},
+    {"id": "virgen-retablo", "titulo": "Virgen del Retablo", "mes": 5, "dia": 3, "lugar": "Barrio El Retablo", "descripcion": "Celebración a la Virgen del Retablo de Pijiño, ligada a la tradición de la aparición en el agua.", "imagen": null, "video": null},
+    {"id": "patronales", "titulo": "Fiestas patronales de Nuestra Señora del Carmen", "mes": 7, "dia": 16, "lugar": "Parroquia y calles del pueblo", "descripcion": "Misa, procesión y fiesta en honor a la patrona.", "imagen": null, "video": null},
+    {"id": "festival-bocachico", "titulo": "Festival del Bocachico", "mes": 7, "dia": 17, "lugar": "Barrio La Baizana, ciénaga El Palmar (Isla El Arenal)", "descripcion": "Desde 2002 en honor a los pescadores: reinado, canotaje, mejor atarrayero, pez más grande y mejor plato de pescado.", "imagen": "foto-cienaga-blog", "video": null},
+    {"id": "feria-ganadera", "titulo": "Feria Ganadera", "mes": 7, "dia": null, "lugar": "Cabecera municipal", "descripcion": "Exposición y comercio ganadero en el marco de las fiestas de julio.", "imagen": null, "video": null},
+    {"id": "transito-cabrera", "titulo": "Nuestra Señora del Tránsito", "mes": 8, "dia": 15, "lugar": "Corregimiento Cabrera", "descripcion": "Fiesta religiosa del corregimiento.", "imagen": null, "video": null},
+    {"id": "inmaculada", "titulo": "Inmaculada Concepción", "mes": 12, "dia": 8, "lugar": "Corregimiento Casa Blanca", "descripcion": "Fiesta patronal de Casa Blanca.", "imagen": null, "video": null},
+    {"id": "divino-nino", "titulo": "Divino Niño", "mes": 12, "dia": 25, "lugar": "Nueva Holanda", "descripcion": "Celebración navideña de la vereda.", "imagen": null, "video": null},
+    {"id": "festival-duque", "titulo": "Festival de la Canción Duque Palomino", "mes": null, "dia": null, "lugar": "Cabecera municipal", "descripcion": "Festival anual de canción en honor al compositor. Fecha por confirmar con la Casa de la Cultura.", "imagen": null, "video": null},
+    {"id": "festival-maiz", "titulo": "Festival del Maíz", "mes": null, "dia": null, "lugar": "San José de Prevención", "descripcion": "Canciones inéditas de compositores de la región. Fecha por confirmar.", "imagen": null, "video": null},
+    {"id": "festival-integracion", "titulo": "Festival de la Integración Pijiñera", "mes": null, "dia": null, "lugar": "Plaza Garizao", "descripcion": "Encuentro cultural iniciado en 2019. Fecha por confirmar.", "imagen": "foto-garizao", "video": null}
+  ],
+
+  "medios": [
+    {"id": "foto-escudo", "tipo": "foto", "titulo": "Escudo / portada", "url": "https://blogger.googleusercontent.com/img/a/AVvXsEiCF_jjOVL77DKkZsc7pyhmLvuX0KVIhzGydOVnh84-C2rnAZ0BVTB3CnXMh1aj6An7MfmI_cCLE8YdOlOg32obquVK12eLHtRIAKlrU7T6KZ0rufjy3xMWP3V6kWVEEOXWPxNaQvxSbyTKlui18TOV4uooS5TdJKyUaA07aaMGrbm3ydF4goE4nG5fnhPU", "credito": "Historias del Magdalena", "fuente": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html", "categoria": "historia"},
+    {"id": "foto-antigua-plaza", "tipo": "foto", "titulo": "Antigua plaza del pueblo", "url": "https://blogger.googleusercontent.com/img/a/AVvXsEgxIW8eg3eh6hltsXjGVfA6UbdpjxAAEwu3P0EaVVGs2mhjp-gtkYGSW26QBG8HwwyTRnBauZCeztIBFAYfq2VKXIwcQAzcyPEIQ6OqrMiX2xBx9Xb0eLuEgI4ut2EmmsWSyMYCyRDYdzQ2f72EgwlQhJ9b6z7-zgUlfg9jCoGiA-gVqGP9uon7ac7f1MnS", "credito": "Historias del Magdalena", "fuente": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html", "categoria": "historia"},
+    {"id": "foto-cienaga-blog", "tipo": "foto", "titulo": "Ciénaga de Pijiño", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA78GmjwNoZLlgNkugqlsmTQAtvjyaUMpMeDpd5DOscPzbWrEXR8-VrBU-v59SjaCyys55Q3jnTeaZPfKW_zNMmKOnN0k_siUQng6K9RGejf-duefxCbh11ZleORoTsP21VZQV3ux-Kpu-/s640/57587023_2149173395197342_7870473964433178624_n.jpg", "credito": "Historias del Magdalena", "fuente": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html", "categoria": "turismo"},
+    {"id": "foto-malecon", "tipo": "foto", "titulo": "Malecón de Pijiño del Carmen", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKp_PlgfMQoulU10s560zCvvTyleoCDmcMBgAyFIksOwXXOs-WvOJazxvQAsktmeGJJMmTswHZKu6lj2-kiB0SL4mOlwuOO9uu-TwE1Za2oG4va75i7LcqImTd-flyTlftrjo47usN1GXD/s640/57572798_2149173288530686_7143865124011376640_n.jpg", "credito": "Historias del Magdalena", "fuente": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html", "categoria": "turismo"},
+    {"id": "foto-isla-verde", "tipo": "foto", "titulo": "Isla Verde", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAEBNZlA_CpDJF1oL0NNa4b-vCpM6LN6I66CKoCF4PcoWzdIvR5lIHmaR2NlxZtbsQJqg6pNR91T1dHsrOQqKBecuIZnK__bhT_6njvjTiZSzGyN2DzfUTxGpW-O3aBwCLsU4u-u__PNek/s640/10365869_836094146456709_7678034725087304390_n.jpg", "credito": "Historias del Magdalena", "fuente": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html", "categoria": "turismo"},
+    {"id": "foto-casa-cultura", "tipo": "foto", "titulo": "Casa de la Cultura", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVVSL7wU7E3trYOf8qlktQCFaDNJiDeiBsxZZFuuWZVf9oUKIyO5BQAzhvQAFtVtSV9r_cLZuwqk_4STpXB3LP8Ul9tDTx2Y8UfNDQ8aVPw4PEBx4zuVdZcLBLcA-tSsrLUKVblFsHS0J7/s640/10433109_836093993123391_7596059302556493168_n.jpg", "credito": "Historias del Magdalena", "fuente": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html", "categoria": "turismo"},
+    {"id": "foto-garizao", "tipo": "foto", "titulo": "Carmelo Garizao", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYoXKlRkIlSWlD_GPTzL2ATJqVuQabISbPn2cxLVgJrOcjMzAAvTOX3pHF8QOMEtc12QTX0VU2YCAncb-6RnkJ9is3VHZmE8fbi8cRWV8Ab-GpcUqiRlX8upPKTNQdu8VAohtVvtRVdZcY/s640/CARMELO+GARIZAO.jpg", "credito": "Historias del Magdalena", "fuente": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html", "categoria": "personajes"},
+    {"id": "foto-arbol-pijino", "tipo": "foto", "titulo": "Árbol de pijiño (Genipa americana)", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDs4kperGSrk7u_lnASkYgOIBUM5R7LSo0K438goQCg1QcHIE546I158ahz5tDncmMpdMP1hGT6Fqn_0yeQhxBkXAmdeMlFBf2819Ddufru1Cv3PpSt3BnTVQGyIETiiUBSDnifOEH_VKn/s640/14910559_1790656464524200_5651115707170000907_n.jpg", "credito": "Historias del Magdalena", "fuente": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html", "categoria": "ambiente"},
+    {"id": "foto-guia-1", "tipo": "foto", "titulo": "Pijiño y su riqueza hídrica", "url": "https://www.laguiaturistica.com/images/joomlart/categories/magdalena/2017/03-marzo/09pijio1.jpg", "credito": "La Guía Turística", "fuente": "https://www.laguiaturistica.com/index.php/magdalena/sitios-turisticos/258-pijino-del-carmen-y-su-riqueza-hidrografica", "categoria": "turismo"},
+    {"id": "foto-guia-2", "tipo": "foto", "titulo": "Pijiño del Carmen", "url": "https://www.laguiaturistica.com/images/djmediatools/26-pijino-del-carmen-y-su-riqueza-hidrografica/09pijino2.jpg", "credito": "La Guía Turística", "fuente": "https://www.laguiaturistica.com/index.php/magdalena/sitios-turisticos/258-pijino-del-carmen-y-su-riqueza-hidrografica", "categoria": "turismo"},
+    {"id": "foto-listin-cienaga", "tipo": "foto", "titulo": "Aves en la ciénaga de Pijiño", "url": "https://listindiario.com/files/main_image/uploads/2018/09/13/642f24fd24337.jpeg", "credito": "Listín Diario / EFE", "fuente": "https://listindiario.com/vida-verde/2018/09/13/532902/cienaga-de-pijino-un-remanso-en-la-naturaleza-salvaje-del-norte-de-colombia.html", "categoria": "ambiente"},
+    {"id": "foto-30-anos", "tipo": "foto", "titulo": "Celebración de los 30 años del municipio (2026)", "url": "https://www.elinformador.com.co/images/stories/sociales/2026/03-marzo/27SOC%203.jpg", "credito": "El Informador", "fuente": "https://www.elinformador.com.co/index.php/sociales/54-entretenimiento/349684-pijino-del-carmen-celebro-30-anos-de-historia-tradicion-y-orgullo-comunitario", "categoria": "historia"},
+
+    {"id": "video-pijino-carmen", "tipo": "video", "youtube": "WBT61vYY4I8", "titulo": "Pijiño del Carmen", "credito": "Hernán Tamayo G.", "categoria": "turismo"},
+    {"id": "video-plaza-malecon", "tipo": "video", "youtube": "k7QvwMrswA4", "titulo": "Plaza y malecón turístico de Pijiño del Carmen", "credito": "Luis Machado (Lu_Mach)", "categoria": "turismo"},
+    {"id": "video-documental", "tipo": "video", "youtube": "-P_BIu1KCOQ", "titulo": "Documental de Pijiño del Carmen, Magdalena", "credito": "Sara Ospino", "categoria": "historia"},
+    {"id": "video-pijino-somos-todos", "tipo": "video", "youtube": "u40UcfYLodw", "titulo": "Pijiño somos todos", "credito": "Pijiño Conexión Caribe", "categoria": "cultura"},
+    {"id": "video-cienaga-mochilero", "tipo": "video", "youtube": "R2dK4yD4bSI", "titulo": "Recorrido por la ciénaga de Pijiño", "credito": "Romero Mochilero", "categoria": "ambiente"},
+    {"id": "video-carnaval-2025", "tipo": "video", "youtube": "vCNc_766XvU", "titulo": "Peter Manjarrés & Luis José Villa en vivo – Pijiño 2025", "credito": "Dj Marlon Cadavid", "categoria": "cultura"},
+    {"id": "video-sacudete", "tipo": "video", "youtube": "oh13Ko93kbQ", "titulo": "Inauguración Sacúdete al Parque", "credito": "Alcaldía Municipal Pijiño del Carmen", "categoria": "cultura"},
+    {"id": "video-lab-imaginacion", "tipo": "video", "youtube": "iHdsBAICoOQ", "titulo": "Laboratorio de la Imaginación: Imaginar la paz en Pijiño", "credito": "Misterio de la Imaginación", "categoria": "cultura"},
+    {"id": "video-pijino-johan", "tipo": "video", "youtube": "Tt1I2QsfSwo", "titulo": "Pijiño del Carmen, Magdalena", "credito": "Johan Terraza Lara", "categoria": "turismo"},
+    {"id": "video-lluvia", "tipo": "video", "youtube": "7mYLIzVK7Tk", "titulo": "Lloviendo en Pijiño del Carmen", "credito": "Jhon Carlos Coronel", "categoria": "ambiente"}
+  ],
+
+  "enlaces": [
+    {"id": "fb-alcaldia", "tipo": "red_social", "red": "facebook", "titulo": "Alcaldía Municipal Pijiño del Carmen", "url": "https://www.facebook.com/alcaldiapijinodelcarmen/"},
+    {"id": "fb-municipio", "tipo": "red_social", "red": "facebook", "titulo": "Pijiño del Carmen (página municipal)", "url": "https://www.facebook.com/alcaldiamunicipal.pijinodelcarmenmagdalena/"},
+    {"id": "fb-gobernacion-25", "tipo": "red_social", "red": "facebook", "titulo": "Gobernación del Magdalena – video 25 años de Pijiño", "url": "https://www.facebook.com/gobernaciondelmagdalena/videos/764588607590547/"},
+    {"id": "yt-alcaldia", "tipo": "red_social", "red": "youtube", "titulo": "Videos de Pijiño del Carmen", "url": "https://www.youtube.com/results?search_query=Piji%C3%B1o+del+Carmen"},
+    {"id": "web-alcaldia", "tipo": "institucional", "titulo": "Sitio web de la Alcaldía", "url": "https://www.pijinodelcarmen-magdalena.gov.co/"},
+    {"id": "wiki", "tipo": "institucional", "titulo": "Pijiño del Carmen en Wikipedia", "url": "https://es.wikipedia.org/wiki/Piji%C3%B1o_del_Carmen"},
+    {"id": "blog-historia", "tipo": "prensa", "titulo": "Historias del Magdalena – Pijiño del Carmen", "url": "https://historiasdelmagdalena1.blogspot.com/2019/05/pijino-del-carmenmagdalena-pueblo.html"},
+    {"id": "guia-turistica", "tipo": "turismo", "titulo": "La Guía Turística – Riqueza hidrográfica", "url": "https://www.laguiaturistica.com/index.php/magdalena/sitios-turisticos/258-pijino-del-carmen-y-su-riqueza-hidrografica"},
+    {"id": "viajar-verano", "tipo": "turismo", "titulo": "Viajar en Verano – Pijiño, región de lagunas y fauna", "url": "https://www.viajarenverano.com/pijino-del-carmen-magdalena/"},
+    {"id": "ruta-cienaga", "tipo": "turismo", "titulo": "Turismo Mompox – Ruta Ciénaga de Pijiño", "url": "https://turismomompox.com/producto/ruta-cienaga-de-pijino/"},
+    {"id": "tour-valerosa", "tipo": "turismo", "titulo": "Valerosa Tours – Tour ciénaga de Pijiño", "url": "https://valerosatours.com/tour-cienaga-de-pijino/"},
+    {"id": "prensa-30", "tipo": "prensa", "titulo": "El Informador – Pijiño celebró 30 años", "url": "https://www.elinformador.com.co/index.php/sociales/54-entretenimiento/349684-pijino-del-carmen-celebro-30-anos-de-historia-tradicion-y-orgullo-comunitario"},
+    {"id": "prensa-hospital", "tipo": "prensa", "titulo": "El Espectador – Nuevo hospital tras 53 años de espera (sept. 2026)", "url": "https://www.elespectador.com/colombia/mas-regiones/tras-53-anos-de-espera-comunidad-de-pijino-del-carmen-contara-con-hospital-adecuado/"},
+    {"id": "familysearch", "tipo": "institucional", "titulo": "FamilySearch – Genealogía de Pijiño", "url": "https://www.familysearch.org/es/wiki/Piji%C3%B1o_del_Carmen,_Magdalena,_Colombia_-_Genealog%C3%ADa"}
+  ],
+
+  "noticias": [
+    {"id": "n-hospital", "fecha": "2026-09-09", "titulo": "Primera piedra del nuevo hospital", "resumen": "La Gobernación del Magdalena inició la construcción de un hospital de 4.813 m² con urgencias, hospitalización, obstetricia, laboratorio y consulta externa, que reemplazará el puesto de salud que funciona desde 1973. Inversión superior a $14.694 millones y plazo de 10 meses.", "url": "https://www.elespectador.com/colombia/mas-regiones/tras-53-anos-de-espera-comunidad-de-pijino-del-carmen-contara-con-hospital-adecuado/"},
+    {"id": "n-30-anos", "fecha": "2026-03-27", "titulo": "Pijiño celebró 30 años como municipio", "resumen": "La comunidad conmemoró tres décadas de vida institucional con actos culturales.", "url": "https://www.elinformador.com.co/index.php/sociales/54-entretenimiento/349684-pijino-del-carmen-celebro-30-anos-de-historia-tradicion-y-orgullo-comunitario"}
+  ],
+
+  "contactos": [
+    {"id": "emergencias", "titulo": "Línea de emergencias", "telefono": "123", "descripcion": "Policía, bomberos y ambulancia (línea nacional)."},
+    {"id": "policia-anticorrupcion", "titulo": "Policía – línea anticorrupción", "telefono": "157", "descripcion": "Línea nacional."},
+    {"id": "rector-ie", "titulo": "IE Técnica Departamental Pijiño del Carmen – Rectoría", "telefono": "3114147206", "correo": "priscilianolara69@gmail.com", "descripcion": "Prisciliano Lara Mendoza, rector."},
+    {"id": "equipo", "titulo": "Equipo APP-Conecta con Pijiño (SENA)", "telefono": "3206235131", "correo": "sergioandres2010114018@gmail.com", "descripcion": "Instructor Sergio Andrés Caro Arrieta – sugerencias y aportes de contenido."},
+    {"id": "tour-mompox", "titulo": "Tours a la ciénaga desde Mompox (Mompox Nativo)", "telefono": "3128023832", "descripcion": "Recorridos guiados en bote. Operador privado; verificar disponibilidad."}
+  ]
+}

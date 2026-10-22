@@ -1,0 +1,47 @@
+name: Compilar APK
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Preparar proyecto Android
+        run: bash configurar.sh
+
+      - name: Compilar APK
+        run: flutter build apk --release
+
+      - name: Renombrar APK
+        run: cp build/app/outputs/flutter-apk/app-release.apk conecta-pijino.apk
+
+      - name: Subir APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: conecta-pijino-apk
+          path: conecta-pijino.apk
+
+      - name: Publicar en Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-${{ github.run_number }}
+          name: Conecta con Pijiño - version ${{ github.run_number }}
+          files: conecta-pijino.apk
